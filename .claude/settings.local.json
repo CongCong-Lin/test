@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s \"https://cn.bing.com/search?q=%E8%B6%85%E6%97%B6%E7%A9%BA%E8%BE%89%E5%A4%9C%E5%A7%AC\" -H \"User-Agent: Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" --connect-timeout 15 -o \"D:/claude-workspace/bing_result.html\")",
+      "Read(//d/claude-workspace/**)",
+      "Bash(python *)",
+      "Bash(where java *)",
+      "Bash(\"D:/new download/JDK/bin/javac.exe\" -encoding UTF-8 -d out src/com/snake/*.java)",
+      "Bash(\"D:/new download/JDK/bin/java.exe\" -cp out com.snake.Main)"
+    ]
+  }
+}
